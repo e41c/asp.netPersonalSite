@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALCH2iaprek24AKs8KXZE7QAAAAACAAAAAAAQZgAAAAEAACAAAAB1Hsx8LQCDN2jUnSzLunF8W9/8jUUxFFFejsWPbrmy/AAAAAAOgAAAAAIAACAAAAAmZFW/cxwSThWVJNHCwgbCd4mp50aBb6CCoxccP/0+bIAAAACmRvtTcaHHP7+E0KjhJGIGDOW/NPJ2w/IVrMGcfHCZ7+EVH3ZzSiKP+VkPRh78YXsx+wf2sUx78ouQ+sUBcD9daNmh6n7lEibJkn0YiatkRQwVO3ILlTP26uLx0E1lXGHoNfBXHp76IQXEdbA1884vn1aIYtln00JuZWzNNYTeqEAAAAAWmQwUUF3Fdg7Cy8e+o3CcI9RpQNNqxog7tCH7jRz+Or5Tblm7LsAHuZqgrWVEj/TpIqr6aDK2XwCht1N/wCcz</EncryptedPassword>
+    <History>True|2023-04-08T03:24:41.7324004Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:forumsdbserver.database.windows.net,1433%3bInitial Catalog=Portfolio%3bUser Id=dbserver_admin%40forumsdbserver%3bPassword=Reitzel1!</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="portfolioProject.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:forumsdbserver.database.windows.net,1433%3bInitial Catalog=Portfolio%3bUser Id=dbserver_admin%40forumsdbserver%3bPassword=Reitzel1!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
